@@ -1,0 +1,36 @@
+
+一.命名法:
+
+1.具有管理一定規模程度的物件, 會用Manager當後綴字
+
+例:MapManager, EventManager
+
+
+
+2.當具有視覺化功能時, 會用Display當後綴字
+
+例:MapDisplay
+
+
+
+3.當具有接收使用者輸入功能時, 會用Control當後綴字
+
+例:MapControl
+
+
+
+4.Prefab皆會用Unit當後綴字
+
+例:TankUnit
+
+
+
+5.其餘則看該物件屬性判斷命名
+
+例:工具類會以Tool作後綴(CalculateTool)
+
+
+
+6.Manager, Display, Control的前綴字是一樣的話, 代表是同個類別的物件
+
+例:MapManager,MapDisplay, MapControl

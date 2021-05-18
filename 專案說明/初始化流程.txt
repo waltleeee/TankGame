@@ -1,0 +1,24 @@
+
+
+初始化流程:
+
+1.啟動: 
+GameEnter啟動>EventManager 初始化>InitialManager啟動 >InitialManager 註冊Event
+
+
+2.第一階段初始化:
+InitialManager發送Event>GameFlowManager, ResourceManager, LoadingManager初始化
+
+
+3.第二階段初始化:
+InitialManager發送Event>MapManager, SoundManager初始化
+
+
+3.初始化完成
+InitialManager發送Event>通知GameFlowManager初始化完成
+
+
+4.GameFlowManager執行gameStart() 發送Event> LoadingManager關閉讀取畫面
+
+
+5.玩家可以開始操作, 遊戲開始

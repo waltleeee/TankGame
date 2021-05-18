@@ -1,0 +1,15 @@
+
+1.各Manager皆為獨立
+
+
+2.Display只能跟同類別的Manager溝通
+
+
+3.Control只能跟同類別的Manager溝通
+
+
+4.各Manager需要溝通時一定要透過 EventManager
+
+
+5.各Manager(除了EventManager)必須向 EventManager註冊 Event以及函式
+  不然相關 Event都不會有動作

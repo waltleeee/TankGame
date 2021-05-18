@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "TankGame",
+  "id": "cfa3def4-2ebc-4b1e-8b1d-c59b256590cd",
+  "version": "2.4.3",
+  "isNew": false
+}
